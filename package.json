@@ -1,0 +1,15 @@
+{
+  "name": "webd6201-w2021-ice1",
+  "version": "0.0.1",
+  "description": "A demo website created as an exercise for webd6201",
+  "main": "app.js",
+  "repository": "https://github.com/CKM206/WEBD6201-W2021---ICE1.git",
+  "author": "Calvin May <calvinkylemay@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.5.1"
+  }
+}
