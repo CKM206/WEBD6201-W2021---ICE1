@@ -100,7 +100,7 @@
 
   function displayContact() 
   {
-    let messageArea = document.getElementById("messageArea");
+    let messageArea = getElementById("messageArea")
     messageArea.hidden = true;
 
     // Form Validation
@@ -110,23 +110,8 @@
       {
         fullName.focus();
         fullName.select();
-        messageArea.textContent = "Invalid Full Name: Please enter an appropriate Name."
-        messageArea.hidden = false;
-      }
-      else
-      {
-        messageArea.hidden = true;
       }
     });
-
-    let sendButton = document.getElementById("sendButton");
-    sendButton.addEventListener("click", function(event){
-      event.preventDefault();
-
-      console.log(fullName.value);
-      console.log(contactNumber.value);
-      console.log(emailAddress.value);
-    })
   }
 
   function Start() {
