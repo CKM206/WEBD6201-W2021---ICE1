@@ -77,14 +77,7 @@
        mainContent.removeChild(paragraphOneElement);
 
        // Updating & Modification
-       //-Targetted Modifcation
-       //mainContent.firstElementChild.textContent = "Welcome Home";
-
-       // Bulk modififying mainContent
-       //mainContent.innerHTML = 
-       //'<h1 id="firstHeading">Welcome to WEBD6201 - Lab 1</h1>' +
-       //'<p id="paragraphOne" class="fs-3 fw-bold">A new First Paragraph</p>';
-       
+       mainContent.firstChild.textContent = "Welcome Home";
 
 
     }

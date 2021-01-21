@@ -59,7 +59,7 @@
 
         let paragraphDiv = document.createElement('div');
         // Converting and Injecting the paragraph, it still erases all other content
-        paragraphDiv.innerHTML = paragraphThree;
+       // mainContent.innerHTML = paragraphThree;
         
        // Insertions
        //-Example of insering before a node
@@ -69,22 +69,6 @@
        newParagraph.after(paragraphDiv);
 
        // deletions
-
-       //-Removing a single element
-       //paragraphOneElement.remove();
-
-       //-Removing a child element
-       mainContent.removeChild(paragraphOneElement);
-
-       // Updating & Modification
-       //-Targetted Modifcation
-       //mainContent.firstElementChild.textContent = "Welcome Home";
-
-       // Bulk modififying mainContent
-       //mainContent.innerHTML = 
-       //'<h1 id="firstHeading">Welcome to WEBD6201 - Lab 1</h1>' +
-       //'<p id="paragraphOne" class="fs-3 fw-bold">A new First Paragraph</p>';
-       
 
 
     }
