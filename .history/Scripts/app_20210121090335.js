@@ -114,13 +114,10 @@
         displayAbout();
         break;
       case "Projects":
-        displayProjects();
         break;
       case "Services":
-        displayServices();
         break;
       case "Contact":
-        displayContact();
         break;
     }
 
